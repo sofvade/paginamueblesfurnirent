@@ -1,0 +1,24 @@
+{
+  "name": "paginamueblesfurnirent",
+  "version": "1.0.0",
+  "description": "Sitio web de muebles construido con Next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "vercel --prod",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.14",
+    "vercel": "^31.0.3"
+  }
+}
